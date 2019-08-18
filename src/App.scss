@@ -1,0 +1,28 @@
+@import './common_styles/variables.scss';
+@import './common_styles/mixins.scss';
+
+body {
+  width: 100%;
+}
+
+.app {
+  width: 70%;
+  margin-left: 15%;
+  background: $background;
+  @include flex-column-center;
+
+  Header {
+    margin-bottom: 2rem;
+  }
+
+  .divider {
+    width: 98%;
+    height: 1rem;
+    border-bottom: 2px solid black;
+  }
+
+  Footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}

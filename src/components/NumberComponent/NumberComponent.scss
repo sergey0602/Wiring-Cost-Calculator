@@ -1,0 +1,18 @@
+.number-cmp {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: grid;
+  grid-template-columns: 9fr 2fr 1fr;
+
+  .label-text {
+    margin-right: 1rem;
+    font-family: "Open Sans";
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .currency {
+    padding-left: 0.5rem;
+  }
+}
